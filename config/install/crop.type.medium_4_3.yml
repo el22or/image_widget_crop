@@ -1,0 +1,6 @@
+langcode: en
+status: true
+dependencies: {  }
+label: '4:3 medium'
+id: medium_4_3
+description: ''

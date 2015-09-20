@@ -8,3 +8,5 @@ dependencies:
   - crop
   - image
   - user
+  - media_entity
+  - media_entity_image
