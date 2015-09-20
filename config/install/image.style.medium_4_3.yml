@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_widget_crop
+name: medium_4_3
+label: '4:3 medium (300 x 330)'
+effects:
+  d02cea5d-7435-49e1-9103-3d673ecf8734:
+    uuid: d02cea5d-7435-49e1-9103-3d673ecf8734
+    id: image_resize
+    weight: 4
+    data:
+      width: 300
+      height: 330
+  e051acef-d8a1-4983-a700-a70eb0856971:
+    uuid: e051acef-d8a1-4983-a700-a70eb0856971
+    id: image_widget_crop_crop
+    weight: 3
+    data:
+      crop_type: medium_4_3
