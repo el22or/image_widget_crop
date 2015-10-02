@@ -8,7 +8,7 @@ label: '16:9 Small (320 x 180)'
 effects:
   34de3df0-ac18-45c0-9b01-1e9c94a263c4:
     uuid: 34de3df0-ac18-45c0-9b01-1e9c94a263c4
-    id: image_resize
+    id: image_scale_and_crop
     weight: 4
     data:
       width: 320

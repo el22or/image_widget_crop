@@ -8,7 +8,7 @@ label: '4:3 medium (300 x 330)'
 effects:
   d02cea5d-7435-49e1-9103-3d673ecf8734:
     uuid: d02cea5d-7435-49e1-9103-3d673ecf8734
-    id: image_resize
+    id: image_scale_and_crop
     weight: 4
     data:
       width: 300
