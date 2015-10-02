@@ -15,7 +15,7 @@ effects:
       height: 330
   e051acef-d8a1-4983-a700-a70eb0856971:
     uuid: e051acef-d8a1-4983-a700-a70eb0856971
-    id: image_widget_crop_crop
+    id: crop_crop
     weight: 3
     data:
       crop_type: medium_4_3
