@@ -39,11 +39,11 @@ Technical details
 #### Linux (Debian / Ubuntu / Mint)
 
 * Just use the standard packaging commands 
- 
-        bash
-        sudo apt-get install libgmp-dev
-        sudo apt-get install php5-gmp
-        sudo service apache2 reload
+ ```bash
+sudo apt-get install libgmp-dev
+sudo apt-get install php5-gmp
+sudo service apache2 reload
+```
 
 #### MacOS X
 
@@ -51,18 +51,16 @@ Technical details
 * Run `php --version` to check which version of PHP you have.
 * [Download](http://www.php.net/releases/) that version of PHP somewhere on your system.
 * Run `phpize`, then compile it with
-
-        bash
-        cd php-5.5.21/ext/gmp
-        phpize
-        ./configure
-        make
-        make install
-
+```bash
+cd php-5.5.21/ext/gmp
+phpize
+./configure
+make
+make install
+```
 * Locate your php.ini file `php -i | grep "Loaded Configuration File"`
 * Add the following to your php.ini
-
-        bash
-        extension="gmp.so"
-
+```ini
+extension="gmp.so"
+```
 * Restart Apache
