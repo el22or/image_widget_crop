@@ -2,13 +2,13 @@ langcode: en
 status: true
 dependencies:
   module:
-    - crop
+    - image_widget_crop
 name: small_16_9
 label: '16:9 Small (320 x 180)'
 effects:
   34de3df0-ac18-45c0-9b01-1e9c94a263c4:
     uuid: 34de3df0-ac18-45c0-9b01-1e9c94a263c4
-    id: image_scale_and_crop
+    id: image_resize
     weight: 4
     data:
       width: 320

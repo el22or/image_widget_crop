@@ -2,13 +2,13 @@ langcode: en
 status: true
 dependencies:
   module:
-    - crop
+    - image_widget_crop
 name: medium_4_3
 label: '4:3 medium (300 x 330)'
 effects:
   d02cea5d-7435-49e1-9103-3d673ecf8734:
     uuid: d02cea5d-7435-49e1-9103-3d673ecf8734
-    id: image_scale_and_crop
+    id: image_resize
     weight: 4
     data:
       width: 300
